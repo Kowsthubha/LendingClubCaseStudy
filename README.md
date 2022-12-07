@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> The company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment. 
 
 
 ## Table of Contents
@@ -11,26 +11,30 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The project or use case given to explore, apply and understand the EDA(Exploratory Data Analysis).
+- Background of the project is for the company to help out in Approvl or Rejection of Loans
+- To make a decision for the person applies for a loan that could be taken by the company in terms of Loan accepted or Loan Rejected.
+- The dataset being used is the data which was given part of this Project attached with loan.csv
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Charged off loans reasons as below
+    Applicants who use the loan to clear other debts
+    Applicants having house_ownership as 'RENT'
+    Applicants who have an income of range 31201 - 58402
+    Applicants who receive interest at the rate of 13-17% and So on
+- Charged off applicants, any new loan applications should be rejected because of the risk in paying back
+- Across all the income groups, the loan_amount is higher for people who defaulted.
+- Employees with longer working history got the loan approved for a higher amount.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - 3.8.15
+- Pandas - 1.3.5
+- seaborn - 0.11.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -42,7 +46,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@githubkowsthubha] - feel free to contact me!
 
 
 <!-- Optional -->
